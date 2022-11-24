@@ -1,81 +1,153 @@
-# Getting Started with Create React App
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm start`
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+- An NFT marketplace for our personal project, **Arkham Collectibles**.
+1. Home Page
+ - ![image](https://user-images.githubusercontent.com/51413811/203613437-55bdd232-f095-46a9-a03b-f3ad01d53281.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Market Page
+ - ![image](https://user-images.githubusercontent.com/51413811/203681600-5a26c707-26c0-49b2-999a-fe2284dd6fe0.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3. Request Page
+ - ![image](https://user-images.githubusercontent.com/51413811/203682017-336e18b7-ead7-40a4-bdb1-7cf4385b24a9.png)
 
-### `npm test`
+4. Contact Page
+ - ![image](https://user-images.githubusercontent.com/51413811/203682111-06ca21bf-fe3d-4be8-a51b-684cee24fce9.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* ![React JS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+* ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)
+* ![Web3](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+* ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+* IPFS
+* Metamask
+* Remix IDE
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
+## Getting Started
+<!-- ### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ``` -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repo
+   ```sh
+   git clone https://github.com/LuciferWalker/nft-market-place.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Deploy the Smart Contract on a testnet.
+4. Enter the smart contract address and the ABI in `config.js`
+   ```js
+   const contractAddress = "ENTER YOUR CONTRACT ADDRESS"
+   const ABI = 'ENTER YOUR ABI';
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- USAGE EXAMPLES -->
+<!-- ## Usage
 
-### Analyzing the Bundle Size
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+_For more examples, please refer to the [Documentation](https://example.com)_ -->
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<!-- CONTRIBUTING -->
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Any contributions you make are **greatly appreciated**.
 
-### Deployment
+Don't forget to give the project a star! 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-color: #14141f;
-background: linear-gradient(-45deg, #E250E5, #4B50E6, #E250E5, #4B50E6);
-background-size: 100% 100%;
--webkit-background-clip: text;
--webkit-text-stroke: 3px transparent;
--webkit-text-fill-color: #14141f;
+<!-- CONTACT -->
+## Contact
 
-border-color: #5142FC
-card-color: #343444
-body-color: #14141f
+`Linkedin`
+
+<!-- https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+ -->
+Tanay Butala - [https://www.linkedin.com/in/tanay-butala](https://www.linkedin.com/in/tanay-butala)
+
+Preet Patel - [https://www.linkedin.com/in/patelpreet25](https://www.linkedin.com/in/patelpreet25)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- 
+<!-- ACKNOWLEDGMENTS -->
+<!-- ## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+ 
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-preet-url]: https://www.linkedin.com/in/patelpreet25 -->
