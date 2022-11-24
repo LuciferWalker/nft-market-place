@@ -11,7 +11,7 @@ export const ABI = [
 			},
 			{
 				"indexed": true,
-				"internalType": "address",
+				"internalType": "address",   
 				"name": "approved",
 				"type": "address"
 			},
