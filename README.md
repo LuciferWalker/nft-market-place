@@ -16,6 +16,7 @@
     </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgement">Acknowledgement</a></li>
   </ol>
 </details>
 
@@ -129,11 +130,15 @@ Preet Patel - [https://www.linkedin.com/in/patelpreet25](https://www.linkedin.co
 
 
 <!-- 
-<!-- ACKNOWLEDGMENTS -->
-<!-- ## Acknowledgments
+<!-- Acknowledgement -->
+## Acknowledgement
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
+All the artworks in the screenshots are crafted by:
+
+Preet Patel - [https://www.instagram.com/preetpatel_25](https://www.instagram.com/preetpatel_25)
+
+<!--
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
